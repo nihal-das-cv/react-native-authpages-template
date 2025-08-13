@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+# React Native AuthPages Template
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A ready-to-use beginner React Native template featuring pre-built authentication pages integrated with a JWT + MongoDB backend for secure authentication and protected routes.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Pre-built authentication screens (login, signup, logout)
+- JWT-based authentication for secure user sessions
+- MongoDB integration for user data management
+- Protected routes to secure sensitive parts of the app
+- Easy to customize and extend
+
+## Getting Started
+
+To get started with this template, follow these steps:
+
+1. Clone the repository:
 
    ```bash
-   npm install
+   git clone https://github.com/nihal-das-cv/react-native-authpages-template.git
    ```
 
-2. Start the app
+2. **Install Dependencies**
 
    ```bash
-   npx expo start
+   bun install
    ```
 
-In the output, you'll find options to open the app in a
+3. **API Setup**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   - **Option I: Clone the Repository and host the server (locally or on cloud)**
+     ```bash
+     git clone https://github.com/nihal-das-cv/jwt-mongodb-auth-starter.git
+     ```
+   - **Option II: Update `<your-app-uri>` with your hosted server URL**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+4. **Run the Server**
+   ```bash
+   bun run start
+   ```
 
-## Get a fresh project
+## Contributing
 
-When you're ready, run:
+Contributions are welcome! Please follow these steps to contribute:
 
-```bash
-npm run reset-project
-```
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes with a clear message.
+4. Create a pull request to merge your changes into this repository.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contact
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+For any questions or suggestions, please open an issue or contact me.
